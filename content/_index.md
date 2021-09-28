@@ -1,5 +1,5 @@
 ---
-title: Hugo Theme Reveal.js
+title: Lazy Commissions
 ---
 
 ### The HTML Presentation Framework theme for Hugo 
