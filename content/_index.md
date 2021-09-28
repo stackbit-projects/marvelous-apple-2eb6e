@@ -2,6 +2,6 @@
 title: Lazy Commissions
 ---
 
-### Simple Affiliate Marketing That Works.
+### $100 / Day With Affiliate Marketing
 
 Created by [Paul Neidig](https://themarketersvault.net) and [Tim Ikels](https://obdude.com/)
