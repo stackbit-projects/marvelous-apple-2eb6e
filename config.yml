@@ -1,0 +1,19 @@
+baseURL: ''
+title: Hugo Theme RevealJS
+themesDir: themes
+theme: revealjs
+params:
+  reveal_theme: black
+  revealjs:
+    controls: true
+    progress: true
+    history: true
+    center: true
+    height: 800
+    width: 1500
+disableKinds:
+  - sitemap
+outputs:
+  home:
+    - html
+publishDir: public

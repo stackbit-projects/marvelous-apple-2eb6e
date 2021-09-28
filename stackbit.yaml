@@ -1,0 +1,86 @@
+stackbitVersion: ~0.3.0
+dataDir: ''
+pagesDir: exampleSite/content
+models:
+  content:
+    type: page
+    label: Content
+    match: '**/*'
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: number
+        name: weight
+        label: Weight
+        subtype: int
+  reveal_defaults:
+    type: data
+    label: Reveal Defaults
+    file: data/reveal_defaults.yml
+    fields:
+      - type: boolean
+        name: center
+        label: Center
+  config:
+    type: data
+    label: Config
+    file: exampleSite/config.yml
+    fields:
+      - type: string
+        name: baseURL
+        label: Base URL
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: themesDir
+        label: Themes Dir
+      - type: string
+        name: theme
+        label: Theme
+      - type: object
+        name: params
+        label: Params
+        fields:
+          - type: string
+            name: reveal_theme
+            label: Reveal Theme
+          - type: object
+            name: revealjs
+            label: Revealjs
+            fields:
+              - type: boolean
+                name: controls
+                label: Controls
+              - type: boolean
+                name: progress
+                label: Progress
+              - type: boolean
+                name: history
+                label: History
+              - type: boolean
+                name: center
+                label: Center
+              - type: number
+                name: height
+                label: Height
+                subtype: int
+              - type: number
+                name: width
+                label: Width
+                subtype: int
+      - type: list
+        name: disableKinds
+        label: Disable Kinds
+        items:
+          type: string
+      - type: object
+        name: outputs
+        label: Outputs
+        fields:
+          - type: list
+            name: home
+            label: Home
+            items:
+              type: string
